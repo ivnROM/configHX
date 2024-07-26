@@ -7,7 +7,7 @@ auto-pairs = true
 idle-timeout = 0
 
 [editor.cursor-shape]
-insert = "underline"
+insert = "bar"
 normal = "block"
 select = "block"
 
@@ -16,6 +16,13 @@ hidden = true
 
 [editor.lsp]
 display-messages = true
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25
+
+[editor.auto-save]
+focus-lost = true
 
 [keys.normal]
 g = { a = "code_action" } # Maps `ga` to show possible code actions
