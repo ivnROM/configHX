@@ -1,0 +1,108 @@
+"attribute" = { fg = "light-blue" }
+"comment" = { fg = "light-grey", modifiers = ["italic"] }
+"constant" = { fg = "light-orange" }
+"constant.builtin.boolean" = { fg = "light-orange" }
+"constant.character" = { fg = "dark-red" }
+"constant.numeric.float" = { fg = "dark-red" }
+"constant.builtin" = { fg = "dark-red" }
+"constant.numeric" = { fg = "light-orange" }
+"constructor" = { fg = "dark-red" }
+"function" = { fg = "bright-red" }
+"function.builtin" = { fg = "soft-teal" }
+"function.macro" = { fg = "light-yellow" }
+"function.method" = { fg = "soft-red" }
+"keyword" = { fg = "bright-red" }
+"keyword.function" = { fg = "bright-red" }
+"keyword.operator" = { fg = "soft-red" }
+"keyword.control.conditional" = { fg = "bright-red" }
+"keyword.control.import" = { fg = "soft-red" }
+"keyword.control.return" = { fg = "bright-red" }
+"keyword.control.repeat" = { fg = "light-orange" }
+"keyword.control.exception" = { fg = "dark-red" }
+"label" = { fg = "bright-red" }
+"namespace" = { fg = "soft-red" }
+"operator" = { fg = "light-brown" }
+"punctuation.bracket" = { fg = "light-brown" }
+"punctuation.delimiter" = { fg = "light-brown" }
+"punctuation.special" = { fg = "light-brown" }
+"string" = { fg = "light-green" }
+"string.escape" = { fg = "dark-red" }
+"string.regex" = { fg = "light-green" }
+"string.special" = { fg = "light-orange" }
+"string.special.symbol" = { fg = "bright-red" }
+"tag" = { fg = "light-orange" }
+"type" = { fg = "light-yellow" }
+"type.builtin" = { fg = "light-yellow" }
+"variable" = { fg = "light-brown" }
+"variable.builtin" = { fg = "dark-red" }
+"variable.parameter" = { fg = "bright-red" }
+"variable.other.member" = { fg = "bright-red" }
+
+"diff.plus" = { fg = "light-green" }
+"diff.delta" = { fg = "light-yellow" }
+"diff.minus" = { fg = "bright-red" }
+
+"ui.background" = {}
+"ui.cursor" = { modifiers = ["reversed"] }
+"ui.cursorline.primary" = { bg = "cursorline" }
+"ui.help" = { fg = "foreground", bg = "contrast" }
+"ui.linenr" = { fg = "comment" }
+"ui.linenr.selected" = { fg = "foreground" }
+"ui.menu" = { fg = "foreground", bg = "contrast" }
+"ui.menu.selected" = { bg = "black" }
+"ui.popup" = { fg = "foreground", bg = "contrast" }
+"ui.selection" = { bg = "black" }
+"ui.selection.primary" = { bg = "black" }
+"ui.statusline" = { fg = "foreground", bg = "background" }
+"ui.statusline.inactive" = { fg = "foreground", bg = "background" }
+"ui.statusline.normal" = { fg = "light-brown", bg = "background" }
+"ui.statusline.insert" = { fg = "light-orange", bg = "background" }
+"ui.statusline.select" = { fg = "light-yellow", bg = "background" }
+"ui.text" = { fg = "foreground" }
+"ui.text.focus" = { fg = "bright-red" }
+"ui.virtual.ruler" = { bg = "cursorline" }
+"ui.virtual.whitespace" = { fg = "comment" }
+"ui.virtual.wrap" = { fg = "comment" }
+"ui.virtual.indent-guide" = { fg = "comment" }
+"ui.virtual.inlay-hint" = { fg = "comment" }
+"ui.window" = { fg = "black" }
+
+"error" = { fg = "bright-red" }
+"hint" = { fg = "light-green" }
+"warning" = { fg = "light-yellow" }
+"info" = { fg = "light-orange" }
+"diagnostic.error" = { underline = { style = "curl", color = "bright-red" } }
+"diagnostic.warning" = { underline = { style = "curl", color = "light-yellow" } }
+"diagnostic.info" = { underline = { style = "curl", color = "light-orange" } }
+"diagnostic.hint" = { underline = { style = "curl", color = "light-green" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"special" = { fg = "soft-red" }
+
+"markup.heading" = { fg = "light-orange", modifiers = ["bold"] }
+"markup.list" = { fg = "light-orange" }
+"markup.bold" = { fg = "light-yellow", modifiers = ["bold"] }
+"markup.italic" = { fg = "light-yellow", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "light-green" }
+"markup.link.text" = { fg = "dark-red" }
+"markup.quote" = { fg = "light-yellow", modifiers = ["italic"] }
+"markup.raw" = { fg = "light-orange" }
+
+[palette]
+background = "#2c0000" # Dark Red Background
+foreground = "#e0e0e0" # Light Grey Foreground
+cursorline = "#3c0000" # Darker Red for Cursorline
+
+black = "#000000"
+light-brown = "#8a4b3a"
+dark-red = "#b04d4d"
+bright-red = "#ff6f6f"
+soft-red = "#b44c4c"
+light-orange = "#f79c42"
+light-yellow = "#f7ca88"
+light-green = "#8ccf7e"
+dark-brown = "#6a3f2b"
+light-blue = "#67b0e8"
+soft-teal = "#6cbfbf"
+light-grey = "#b3b9b8"

@@ -1,4 +1,4 @@
-theme = "adwaita-dark"
+theme = "harringui"
 
 [editor]
 line-number = "relative"
