@@ -21,8 +21,8 @@ display-messages = true
 enable = true
 max-wrap = 25
 
-[editor.auto-save]
-focus-lost = true
+# [editor.auto-save]
+# focus-lost = true
 
 [keys.normal]
 g = { a = "code_action" } # Maps `ga` to show possible code actions
