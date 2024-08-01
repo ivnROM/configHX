@@ -1,4 +1,4 @@
-theme = "harringui"
+theme = "dracula"
 
 [editor]
 line-number = "relative"
@@ -7,7 +7,7 @@ auto-pairs = true
 idle-timeout = 0
 
 [editor.cursor-shape]
-insert = "bar"
+insert = "block"
 normal = "block"
 select = "block"
 
