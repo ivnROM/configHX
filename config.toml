@@ -17,9 +17,9 @@ hidden = true
 [editor.lsp]
 display-messages = true
 
-[editor.soft-wrap]
-enable = true
-max-wrap = 25
+# [editor.soft-wrap]
+# enable = true
+# max-wrap = 25
 
 # [editor.auto-save]
 # focus-lost = true
