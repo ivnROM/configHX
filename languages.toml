@@ -19,10 +19,16 @@ auto-format = false
 indent = { tab-width = 4, unit = "    " }
 
 [[language]]
+name = "markdown"
+language-server = { command = "~/.cargo/bin/mdpls" }
+config = { markdown.preview.auto = true, markdown.preview.browser = "firefox" }
+
+[[language]]
 name = "cpp"
 auto-format = false
 indent = { tab-width = 4, unit = "    " }
 
+# setup lsp rust
 [language-server.rust-analyzer]
 command = "rust-analyzer"
 

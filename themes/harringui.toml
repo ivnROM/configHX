@@ -1,3 +1,4 @@
-inherits = "doom_acario_dark"
+inherits = "yellowed"
 
 "ui.background" = {}
+
