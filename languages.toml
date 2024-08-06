@@ -20,8 +20,14 @@ indent = { tab-width = 4, unit = "    " }
 
 [[language]]
 name = "markdown"
-language-server = { command = "~/.cargo/bin/mdpls" }
-config = { markdown.preview.auto = true, markdown.preview.browser = "firefox" }
+language-servers = ["marksman", "mdpls"]
+
+[language-server.mdpls]
+command = "mdpls"
+
+[language-server.mdpls.config]
+markdown.preview.auto = true
+markdown.preview.browser = "firefox" 
 
 [[language]]
 name = "cpp"
