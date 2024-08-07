@@ -29,6 +29,9 @@ g = { a = "code_action" }
 "ret" = ["move_line_down", "goto_first_nonwhitespace"] 
 X = "extend_line_above"
 D = "delete_char_backward"
+"A-j" = [ "extend_to_line_bounds", "delete_selection", "paste_after" ]
+"A-k" = [ "extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before" ]
+
 
 [keys.insert]
 j = { k = "normal_mode" }
