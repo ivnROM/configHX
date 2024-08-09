@@ -11,7 +11,7 @@ insert = "block"
 normal = "block"
 select = "block"
 
-[editor.file-picker]
+[editor.file-picker] 
 hidden = true
 
 [editor.lsp]
@@ -31,7 +31,7 @@ X = "extend_line_above"
 D = "delete_char_backward"
 "A-j" = [ "extend_to_line_bounds", "delete_selection", "paste_after" ]
 "A-k" = [ "extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before" ]
-
+C-g =  [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
 
 [keys.insert]
 j = { k = "normal_mode" }
