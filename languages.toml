@@ -1,7 +1,16 @@
 [[language]]
 name = "go"
-auto-format = false
-indent = { tab-width = 4, unit = "    " }
+scope = "source.go"
+injection-regex = "go"
+file-types = ["go"]
+roots = ["go.work", "go.mod"]
+auto-format = true
+comment-token = "//"
+# TODO: gopls needs utf-8 offsets?
+indent = { tab-width = 4, unit = "\t" }
+
+[language-server.gopls]
+command = "gopls"
 
 [[language]]
 name = "zig"
